@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>PORTFOLIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+  
+  /* Add the blur effect */
+
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+   color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.btn {
+  
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="bg-image">
+
+<!-- Top navigation -->
+<div class="topnav">
+
+<a href="#home"><h2 style="font-family:Brush Script Std"><I>PORTFOLIO</I></h2></a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="http://127.0.0.1:8000/blog/">Blogs</a>
+    <a href="#search">linkedin</a>
+     <a href="#search">Github</a>
+     <a href="http://127.0.0.1:8000/contact/">Contact Us</a>
+
+  </div>
+
+</div>
+<div class="bg-text">
+
+  <h2>DEVELOPER</h2>
+  <h1 style="font-size:50px"> RIMSHA NOOR</h1>
+  <a href="mailto:nrimsha55@gmail.com" class="btn ">MAIL US </a>
+  
+  <p>I'll change your web History</p>
+  
+</div>
+
+
+</body>
+</html>
+
+
+
+html
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>PORTFOLIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+  
+  /* Add the blur effect */
+
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+   color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.btn {
+  
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="bg-image">
+
+<!-- Top navigation -->
+<div class="topnav">
+
+<a href="#home"><h2 style="font-family:Brush Script Std"><I>PORTFOLIO</I></h2></a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="http://127.0.0.1:8000/blog/">Blogs</a>
+    <a href="#search">linkedin</a>
+     <a href="#search">Github</a>
+     <a href="http://127.0.0.1:8000/contact/">Contact Us</a>
+
+  </div>
+
+</div>
+<div class="bg-text">
+
+  <h2>DEVELOPER</h2>
+  <h1 style="font-size:50px"> RIMSHA NOOR</h1>
+  <a href="mailto:nrimsha55@gmail.com" class="btn ">MAIL US </a>
+  
+  <p>I'll change your web History</p>
+  
+</div>
+
+
+</body>
+</html>
+
+
+
+footer
+<!-- Footer -->
+<footer class="footer">
+ <div class="row">
+    <div class="col-md-4">
+        <p>Meet Django Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design</p>
+    </div>
+    <div class="col-md-4">
+        <p>Meet Django Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design</p>
+    </div>
+    <div class="col-md-4">
+        <i class="large material-icons" style="color: orange">camera</i>
+        <p>Meet Django Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design</p>
+    </div>
+    
+   <div class="icons-name">
+       <ul>
+           <a href="#" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+       </ul>
+   </div>
+ </div> 
+ <div class="icons-name">
+    <ul>
+        <a href="#" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+    </ul>
+</div>
+</footer>
+  
+  <!-- Footer -->
